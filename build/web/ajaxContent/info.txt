@@ -1,0 +1,20 @@
+<style>
+h1{
+text-align: center;
+}
+p{
+
+text-align: center;
+}
+button{
+margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+</style>
+
+<h1>Esta página web es un sistema para hacer registros de productos e inventario de materiales</h1>
+<p>Se utilizó Servlets y jsp para darle vida a la página web, con una base de datos sql para almacenar los productos</p>
+<p>Este boton funciona con ajax</p>
+<p>Y hay eventos de javascript como el onmouseover en el header</p>

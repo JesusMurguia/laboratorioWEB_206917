@@ -1,0 +1,30 @@
+<%--
+    encabezado.jspf
+
+    Este fragmento de página JSP contiene el encabezado de la aplicación Web
+    laboratorioWeb versión JSP.
+--%>
+
+<%@ page pageEncoding="UTF-8" %>
+<header onmouseover="textoGradient(this)" onmouseout="textoBlanco(this)">
+    <div class="hero-image">
+        <div  class="hero-text">
+            <h1   style="font-size:50px">Laboratorio Web</h1>
+            <h3>Jesus Antonio Murguia Acosta</h3>
+        </div>
+    </div>
+</header>
+<script>
+function textoGradient(x) {
+  x.style.color = '';
+  x.style.background= 'rgb(193,123,238)';
+  x.style.background= 'radial-gradient(circle, rgba(193,123,238,1) 22%, rgba(148,187,233,1) 82%)';
+
+}
+
+function textoBlanco(x) {
+  x.style.color = '';
+  x.style.background= 'rgb(193,123,238)';
+  x.style.background= 'linear-gradient(25deg, rgba(193,123,238,1) 22%, rgba(148,187,233,1) 82%)';
+}
+</script>

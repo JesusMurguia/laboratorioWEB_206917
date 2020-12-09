@@ -1,0 +1,16 @@
+<%--
+    menuPpal.jspf
+
+
+    Este fragmento de página JSP contiene el menú principal de la aplicación Web
+    laboratorioWeb versión JSP.
+--%>
+
+
+<%@ page pageEncoding="UTF-8" %>
+        <nav>
+            <ul>
+                <li><a href="productos.jsp">Catálogo de productos</a></li>
+                <li><a href="inventarios.jsp">Inventario de materiales</a></li>
+            </ul>
+        </nav>

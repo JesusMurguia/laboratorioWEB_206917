@@ -1,0 +1,16 @@
+<%--
+    menuProductos.jspf
+
+    Este fragmento de página JSP contiene el menú productos de la aplicación Web
+    laboratorioWeb versión JSP.
+--%>
+<%@ page pageEncoding="UTF-8" %>
+        <nav>
+            <ul>
+                <li><a href="Control?tarea=agregarProducto">Agregar producto</a></li>
+                <li><a href="Control?tarea=actualizarProducto">Actualizar producto</a></li>
+                <li><a href="Control?tarea=eliminarProducto">Eliminar producto</a></li>
+                <li><a href="Control?tarea=listarProductos">Consultar productos</a></li>
+                <li><a href="index.jsp">Regresar al menu principal</a></li>
+            </ul>
+        </nav>

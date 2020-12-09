@@ -1,0 +1,15 @@
+<%--
+    menuProductos.jspf
+
+    Este fragmento de página JSP contiene el menú canciones de la aplicación Web
+    laboratorioWeb versión JSP.
+--%>
+<%@ page pageEncoding="UTF-8" %>
+        <nav>
+            <ul>
+                <li><a href="Control?tarea=inventariarMaterial">Inventariar un material</a></li>
+                <li><a href="Control?tarea=desinventariarMaterial">Desinventariar un material</a></li>
+                <li><a href="Control?tarea=consultarInventarioMateriales">Consultar inventario de materiales</a></li>
+                <li><a href="index.jsp">Regresar al menu principal</a></li>
+            </ul>
+        </nav>
